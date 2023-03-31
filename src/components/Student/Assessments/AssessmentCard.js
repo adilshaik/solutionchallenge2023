@@ -39,6 +39,8 @@ export const AssessmentCard = ({ assessment, studentDetails, rollNumber }) => {
   let isDisabled =
     isDisabledForBatches || isDisabledForBranches || !isShortListed;
 
+  if(user?.college?.name === 'SRM Institute of Science and Technology') isDisabled = false;
+
   if(assessment?.mode==='Test' && status?.finishedAt) isDisabled = true;
 
   useEffect(() => {
