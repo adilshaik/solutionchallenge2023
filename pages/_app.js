@@ -8,7 +8,7 @@ import { ModelContextProvider } from "../src/context/ModalContext";
 import { ResumeContextProvider } from "../src/context/ResumeContext";
 import { AssessmentContextProvider } from "../src/context/AssessmentContext";
 import { DownloadResumeFilterContextProvider } from "../src/context/DownloadResumeFilterContext";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import { Modal } from "../src/components/Layout/Modal";
 
 export default function App({ Component, pageProps }) {
