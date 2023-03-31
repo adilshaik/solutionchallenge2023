@@ -9,11 +9,11 @@ const Custom404 = () => {
           <div className="flex-shrink-0 flex justify-center">
             <Image
               placeholder="blur"
-              blurDataURL="https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_B_fpwhlu.png"
+              blurDataURL="/provast_black.png"
               height={"70px"}
               width={"200px"}
               className="object-cover rounded-md cursor-pointer"
-              src="https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_B_fpwhlu.png"
+              src="/provast_black.png"
               alt=""
             />
           </div>

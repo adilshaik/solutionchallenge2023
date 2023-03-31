@@ -10,10 +10,10 @@ import { findUser } from "../../../src/lib/user";
 import { Popover, Transition } from "@headlessui/react";
 import { useJobs } from "../../../src/hooks/useJobs";
 import { useStudents } from "../../../src/hooks/useStudents";
-import axios, { Axios } from "axios";
+import axios from "axios";
 import Link from "next/link";
 
-const Index = ({ userDetails, crtPayments }) => {
+const Index = ({ userDetails }) => {
   const user = JSON.parse(userDetails);
   const { jobs, isLoading } = useJobs(user);
   const { students } = useStudents(user);
@@ -22,7 +22,6 @@ const Index = ({ userDetails, crtPayments }) => {
     setFilteredJobs(jobs);
   }, [jobs]);
   const stats = [
-    { label: "CRT Paid Students", value: crtPayments?.length },
     { label: "Total Students", value: students?.length },
     { label: "Total Jobs Posted", value: jobs?.length },
   ];
@@ -112,15 +111,10 @@ const Index = ({ userDetails, crtPayments }) => {
                         </div>
                       </div>
                       <div
-                        className={`border rounded-md border-gray-200 bg-gray-50 grid grid-cols-1 divide-y divide-gray-200 ${
-                          user.college.name === "CVR College of Engineering"
-                            ? "sm:grid-cols-2"
-                            : "sm:grid-cols-3"
-                        } sm:divide-y-0 sm:divide-x `}
+                        className={`border rounded-md border-gray-200 bg-gray-50 grid grid-cols-1 divide-y divide-gray-200 
+                           sm:grid-cols-2 sm:divide-y-0 sm:divide-x `}
                       >
                         {stats.map((stat, index) => {
-                          if (user.college.name === "CVR College of Engineering" && index === 0)
-                            return;
                           return (
                             <div
                               key={stat.label}

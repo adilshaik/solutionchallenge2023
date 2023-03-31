@@ -1,10 +1,8 @@
 import { NextSeo } from "next-seo";
 import { About } from "../src/components/Landing/About";
-import { Contact } from "../src/components/Landing/Contact";
 import { CTA } from "../src/components/Landing/CTA";
 import { Guide } from "../src/components/Landing/Guide";
 import { Slider } from "../src/components/Landing/Slider";
-import { Testimonials } from "../src/components/Landing/Testimonials";
 import { getLoginSession } from "../src/lib/auth";
 import { findUser } from "../src/lib/user";
 
@@ -14,31 +12,31 @@ const Index = () => {
       <NextSeo
         title='Provast'
         description='This example uses more of the available config options.'
-        canonical='https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_B_fpwhlu.png'
+        canonical='/provast_black.png'
         openGraph={{
-          url: "https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_B_fpwhlu.png",
+          url: "/provast_black.png",
           title: "Open Graph Title",
           description: "Open Graph Description",
           images: [
             {
-              url: "https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_B_fpwhlu.png",
+              url: "/provast_black.png",
               width: 800,
               height: 600,
               alt: "Og Image Alt",
               type: "image/jpeg",
             },
             {
-              url: "https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_B_fpwhlu.png",
+              url: "/provast_black.png",
               width: 900,
               height: 800,
               alt: "Og Image Alt Second",
               type: "image/jpeg",
             },
             {
-              url: "https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_B_fpwhlu.png",
+              url: "/provast_black.png",
             },
             {
-              url: "https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_B_fpwhlu.png",
+              url: "/provast_black.png",
             },
           ],
           site_name: "Vast",

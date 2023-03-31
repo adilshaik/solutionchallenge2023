@@ -6,7 +6,7 @@ import Image from "next/image";
 const sliderData = [
   {
     id: 1,
-    image: "https://res.cloudinary.com/dj7nomqfd/image/upload/v1665769905/resume_dapoq9.jpg",
+    image: "/image1.webp",
     title:
       "With PROVAST Top Resume Templates be among every chance for getting shortlisted for every hiring",
     description:
@@ -16,7 +16,7 @@ const sliderData = [
   },
   {
     id: 2,
-    image: "https://res.cloudinary.com/dj7nomqfd/image/upload/v1665769905/8460510_1_xauyvl.jpg",
+    image: "/image2.webp",
     title: "Find your dream job now on Provast.",
     description: "Be a Priority Applicant & increase your chance of getting a call.",
     button: "Apply Job",
@@ -102,7 +102,7 @@ export const Slider = () => {
                   </button>
                 </div>
               </div>
-              <div className='relative w-full lg:w-[50%] h-full'>
+              <div className='relative w-full lg:w-[60%] h-full'>
                 <Image
                   placeholder='blur'
                   blurDataURL={image}

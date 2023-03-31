@@ -86,11 +86,11 @@ export const Left = ({ resumeDetails }) => {
                   <div className='relative h-12'>
                     <Image
                       placeholder='blur'
-                      blurDataURL='https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_W_uoqbkv.png'
+                      blurDataURL='/provast_white.png'
                       layout='fill'
                       objectFit='contain'
                       className=''
-                      src='https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_W_uoqbkv.png'
+                      src='/provast_white.png'
                       alt=''
                     />
                   </div>
@@ -124,17 +124,17 @@ export const Left = ({ resumeDetails }) => {
             <div className='px-4'>
               {/* <img
                 className="h-12"
-                src="https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_W_uoqbkv.png"
+                src="/provast_white.png"
                 alt=""
               /> */}
               <div className='relative h-12'>
                 <Image
                   placeholder='blur'
-                  blurDataURL='https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_W_uoqbkv.png'
+                  blurDataURL='/provast_white.png'
                   layout='fill'
                   objectFit='contain'
                   className=''
-                  src='https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_W_uoqbkv.png'
+                  src='/provast_white.png'
                   alt=''
                 />
               </div>

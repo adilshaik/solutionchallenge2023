@@ -71,7 +71,7 @@ const products = [
 const index = () => {
   return (
     <div className="max-w-2xl min-h-screen mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 py-4 mt-[12vh] bg-gray-50">
-      <h2 className="text-lg mt-5 font-bold leading-7  text-gray-800 sm:text-4xl sm:truncate">
+      <h2 className="text-lg my-5 font-bold leading-7  text-gray-800 sm:text-4xl sm:truncate">
         Test Patterns
       </h2>
 
@@ -82,14 +82,7 @@ const index = () => {
               key={product.id}
               className="w-full rounded shadow py-4 group relative flex flex-col justify-between"
             >
-              <div className="bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:aspect-none">
-                <img
-                  src={product.imageSrc}
-                  alt=""
-                  className="w-full  object-center object-cover lg:w-full "
-                />
-              </div>
-              <div className="mt-4 flex justify-center">
+              <div className="flex justify-center">
                 <Link href={product.href}>
                   <h3 className="text-lg font-semibold text-gray-700">
                     <span aria-hidden="true" className="absolute inset-0" />

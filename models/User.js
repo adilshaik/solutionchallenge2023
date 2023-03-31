@@ -31,7 +31,7 @@ const userSchema = new mongoose.Schema(
       image: {
         type: String,
         default:
-          "http://res.cloudinary.com/dj7nomqfd/image/upload/v1647117869/uploads/bphhxvmlcyyu2pntbikm.png",
+          "http://res.cloudinary.com/dzn2bzqmt/image/upload/v1680257300/yiifjktxtgye8m3yexvn.png",
       },
       dob: {
         type: Date,

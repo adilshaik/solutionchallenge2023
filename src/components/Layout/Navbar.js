@@ -128,11 +128,11 @@ export const Navbar = () => {
               <div className='relative h-full w-full object-cover rounded-md cursor-pointer'>
                 <Image
                   placeholder='blur'
-                  blurDataURL='https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_B_fpwhlu.png'
+                  blurDataURL='/provast_black.png'
                   layout='fill'
                   objectFit='contain'
                   className=''
-                  src='https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_B_fpwhlu.png'
+                  src='/provast_black.png'
                   alt=''
                 />
               </div>
@@ -217,11 +217,11 @@ export const Navbar = () => {
                     <div className='relative h-full w-full object-cover rounded-md cursor-pointer'>
                       <Image
                         placeholder='blur'
-                        blurDataURL='https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_B_fpwhlu.png'
+                        blurDataURL='/provast_black.png'
                         layout='fill'
                         objectFit='contain'
                         className=''
-                        src='https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_B_fpwhlu.png'
+                        src='/provast_black.png'
                         alt=''
                       />
                     </div>

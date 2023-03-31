@@ -15,7 +15,6 @@ import { JobCard } from "../../../src/components/Jobs/JobCard";
 import { JobChart } from "../../../src/components/Jobs/JobChart";
 import { useResumes } from "../../../src/hooks/useResumes";
 import { useNotices } from "../../../src/hooks/useNotices";
-import { useSingleAcademic } from "../../../src/hooks/useSingleAcademic";
 
 const resources = [
   {
@@ -27,12 +26,6 @@ const resources = [
   {
     heading: "What it takes to be an SDET @Commvault?",
     video: `<iframe src="https://www.youtube.com/embed/2tY_VoACte0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-  },
-  {
-    heading: "Accolite",
-    image:
-      "https://res.cloudinary.com/dj7nomqfd/image/upload/v1651482750/Accolite_Digital_Logo_jlrxfj.jpg",
-    href: "https://www.linkedin.com/events/campusconnect-jumpstartyourcare6919521526669070336/",
   },
 ];
 

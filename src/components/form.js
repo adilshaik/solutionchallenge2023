@@ -10,11 +10,11 @@ const Form = ({ isLogin, errorMessage, onSubmit }) => (
             <Link href={"/"}>
               <Image
                 placeholder='blur'
-                blurDataURL='https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_B_fpwhlu.png'
+                blurDataURL='/provast_black.png'
                 layout='fill'
                 objectFit='contain'
                 className=''
-                src='https://res.cloudinary.com/dj7nomqfd/image/upload/v1652909540/pvast_B_fpwhlu.png'
+                src='/provast_black.png'
                 alt=''
               />
             </Link>
