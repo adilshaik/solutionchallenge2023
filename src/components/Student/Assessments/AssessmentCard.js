@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { useUser } from "../../../lib/hooks";
 import { btechBranches } from "../../../lib/helper.js";
+
 export const AssessmentCard = ({ assessment, studentDetails, rollNumber }) => {
   const [ID, setID] = useState(0);
   const [status, setStatus] = useState(null);
@@ -37,10 +38,6 @@ export const AssessmentCard = ({ assessment, studentDetails, rollNumber }) => {
 
   let isDisabled =
     isDisabledForBatches || isDisabledForBranches || !isShortListed;
-
-  if(user?.college?.name === 'CORPORATE') isDisabled = false;
-
-  if(user?.college?.name === 'CVR College of Engineering') isDisabled = false;
 
   if(assessment?.mode==='Test' && status?.finishedAt) isDisabled = true;
 

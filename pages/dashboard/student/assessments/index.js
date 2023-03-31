@@ -64,7 +64,7 @@ export const getServerSideProps = async ({ req, res, query }) => {
     };
   }
 
-  if (user.category === "student" && !user.academicsAvailable && user?.college.name!=='CORPORATE') {
+  if (user.category === "student" && !user.academicsAvailable) {
     return {
       redirect: {
         destination: "/auth/user/academics",
